@@ -1,0 +1,148 @@
+/*Estilização do Corpo da Página*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma', "Arial";
+}
+
+/*Estilização da sessão HEADER da página*/
+header {
+    background: black;
+    padding: 20px 0;
+}
+
+/*Estilização da sessão NAV (navegação) da página*/
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(202, 20, 202);
+    text-decoration: underline;
+}
+
+/*Estilização das listas da página*/
+ul {
+    list-style: none;
+}
+
+/*Estilização do Logotipo*/
+.logo_caixa {
+    width: 940px;
+    position: relative;
+    margin: auto;
+}
+
+.logo {
+    width: 15%;
+}
+
+/*banner*/
+.banner {
+    width: 100%;
+}
+nav a:hover {
+    color:  rgb(202, 20, 202);;
+    text-decoration: underline;
+}
+
+
+footer {
+    text-align: center;
+    background: linear-gradient(rgb(95, 2, 95), black);
+    padding: 30px 0;
+}
+
+footer img {
+    width: 220px;
+    height: 220px;
+}
+
+/*========================================================*/
+/*Banner*/
+.banner {
+    width: 100%;
+}
+
+/*Copyright*/
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+.card-img{
+    width: 20rem;
+
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 3rem;
+}
+
+.card{
+    height: 30rem;
+    width: 20rem;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 1rem;
+}
+
+.card h3{
+    font-family: 'Tahoma', "Arial";
+    text-align: center;
+    font-size: 22px;
+}
+
+.card p{
+    font-family: 'Tahoma', "Arial";
+    text-align: center;
+    font-size: 18px;
+}
+
+.card p strong{
+    font-family: 'Tahoma', "Arial";
+    text-align: center;
+    font-size: 20px;
+}
+
+.card button{
+    width: 70%;
+    height: 3rem;
+    background-color: black;
+    color: #FFF;
+    font-family: 'Tahoma', "Arial";
+    text-align: center;
+    font-size: 18px;
+    border-radius: 1rem;
+    align-self: center;
+    margin-left: 3rem;
+    border: 0;
+}
+
+.card button:hover {
+    background: linear-gradient(rgb(95, 2, 95), black);
+    transition: background 1s;
+    cursor: pointer;
+}
+
